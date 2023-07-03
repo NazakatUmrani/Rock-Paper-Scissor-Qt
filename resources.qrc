@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/Paper-Icon-Disabled.png</file>
+        <file>icons/Paper-Icon-Enabled.png</file>
+        <file>icons/Rock-Icon-Disabled.png</file>
+        <file>icons/Rock-Icon-Enabled.png</file>
+        <file>icons/Scissor-Icon-Enabled.png</file>
+        <file>icons/Scissor-Icon-Disabled.png</file>
+        <file>icons/paper.png</file>
+        <file>icons/rock.png</file>
+        <file>icons/scissor.png</file>
+    </qresource>
+</RCC>
