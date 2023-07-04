@@ -9,5 +9,8 @@
         <file>icons/paper.png</file>
         <file>icons/rock.png</file>
         <file>icons/scissor.png</file>
+        <file>icons/count1.png</file>
+        <file>icons/count2.png</file>
+        <file>icons/count3.png</file>
     </qresource>
 </RCC>

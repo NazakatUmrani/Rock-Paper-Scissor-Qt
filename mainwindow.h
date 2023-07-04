@@ -12,6 +12,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void enableItems(bool);
 
 private slots:
     void on_newGameButton_clicked();
@@ -19,9 +20,12 @@ private slots:
 
 private:
     Q_OBJECT
-    bool isUserTurn;
+    bool isHumanTurn=false;
     int computerChoice;
-    int userChoice;
+    int humanChoice;
+    int computerScore=0;
+    int humanScore=0;
+    int triesRemaining=5;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

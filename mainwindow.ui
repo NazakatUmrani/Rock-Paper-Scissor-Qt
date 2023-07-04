@@ -308,7 +308,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="gameTitleLabel">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
           <horstretch>0</horstretch>
@@ -450,15 +450,18 @@
     </item>
     <item>
      <layout class="QHBoxLayout" name="ScoreHorizontalLayout">
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label_4">
+      <item>
+       <widget class="QLabel" name="humanScoreLabel">
         <property name="text">
-         <string>User Score:</string>
+         <string>Human</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_5">
+       <widget class="QLabel" name="triesRemainingLabel">
         <property name="text">
          <string>5 Tries Remaining</string>
         </property>
@@ -467,10 +470,13 @@
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label_3">
+      <item>
+       <widget class="QLabel" name="computerScoreLabel">
         <property name="text">
-         <string>Computer Score:</string>
+         <string>Computer</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -479,7 +485,7 @@
     <item>
      <layout class="QGridLayout" name="mainGridLayout">
       <item row="0" column="0" rowspan="3">
-       <layout class="QVBoxLayout" name="userIconsLayout"/>
+       <layout class="QVBoxLayout" name="humanIconsLayout"/>
       </item>
       <item row="0" column="1">
        <spacer name="verticalSpacer_2">
@@ -511,7 +517,7 @@
        <layout class="QVBoxLayout" name="computerIconsLayout"/>
       </item>
       <item row="1" column="1">
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="humanVSComputerLabel">
         <property name="font">
          <font>
           <family>Iosevka NF ExtraBold</family>
